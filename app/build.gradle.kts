@@ -39,6 +39,8 @@ android {
 }
 
 dependencies {
+    val lifecycle_version = "2.6.2"
+
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
@@ -56,4 +58,7 @@ dependencies {
 
     // PICASSO
     implementation("com.squareup.picasso:picasso:2.8")
+
+    // LIFYCYCLE
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
 }
